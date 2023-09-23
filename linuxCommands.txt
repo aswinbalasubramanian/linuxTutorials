@@ -1,0 +1,61 @@
+1. To create a file :
+	touch <fileName.extension>
+
+2. To open the file :
+      1. Just to read :
+		cat <fileName.extension>
+      2. To edit using a editor : (using Vim editor here)
+		vim <fileName.extension>
+
+3. To exit :
+      1. To exit without saving :
+                :q!  and press ENTER
+      2. To exit with saving changes :
+		:wq  and press ENTER
+      3. Save without exiting :
+                :w
+
+4. To navigate :
+      1. Before going to insert mode(non insert mode) :
+		k (UP)
+		j (DOWN)
+		h (LEFT)
+		l (RIGHT)
+      2. In insert mode :
+                Arrow keys do the work
+
+5. [EDITOR COMMANDS]
+
+	1.i accidentally typed this line
+	1.i accidentally typed this line
+	1.i accidentally typed this line
+
+	1.i accidentally typed this line
+	1.i accidentally typed this line
+	
+
+
+	When doing the below operations, the editor to be in non-insert mode
+	
+	1. Delete (one character under the cursor) :  x
+	2. Delete current line : dd
+	3. Delete a word : d( example : dw) which deletes a word
+	
+	4. Undo (ctrl + z) : u
+	5. Redo (ctrl + y) : Ctrl + r
+
+	6.copy a line : yy
+	7.paste a line : p
+
+	8.search : /<searchText>
+			n: find next
+			N: find previous
+          
+	  search : g/<searchText>
+			to display all the occurrences of the search text separately
+          search : match Search /<searchText>
+			to display in file itself
+
+	9.replace : %s/<searchText>/<replaceText>/g
+
+	 
